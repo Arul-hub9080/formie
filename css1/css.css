@@ -1,0 +1,627 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wel {
+    font-size: 10px;
+    color: gray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.head {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(250, 248, 248);
+    box-shadow: 1px 2px 10px rgb(185, 185, 185);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 30px;
+    margin-top: 18px;
+    font-size: 13px;
+}
+
+.nav a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+
+}
+
+.nav a:hover,
+.nav i:hover {
+    color: #77B122;
+    cursor: pointer;
+}
+
+.text {
+    position: absolute;
+    width: 70%;
+    color: white;
+    top: 50%;
+    left: 20%;
+}
+
+.back {
+    background-image: url(https://cdn.phototourl.com/member/2026-09-29-27aa7adf-d236-4602-8ea6-a30204718d17.png);
+    width: 100%;
+    height: 600px;
+    /* background-color: transparent; */
+    background-repeat: no-repeat;
+    background-color: rgb(99, 105, 103);
+    background-blend-mode: multiply;
+    position: sticky;
+    top: 0;
+
+}
+
+.but {
+
+    padding: 10px;
+    background-color: #77B122;
+    color: white;
+    display: inline-block;
+    border-radius: 5%;
+    transition-duration: 0.9s;
+}
+
+.img {
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.image {
+    margin-left: 10%;
+    margin-top: 3%;
+    display: flex;
+
+}
+
+.image img {
+    margin-left: 10%;
+}
+
+.logo {
+    margin-left: 6%;
+    font-size: 18px;
+}
+
+/* move */
+.move{
+    position: fixed;
+    
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.about {
+    width: 60%;
+    text-align: justify;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: inline-block;
+
+}
+
+.but:hover {
+    transform: translatey(-10px);
+    background-color: black;
+    cursor: pointer;
+}
+
+.jurny {
+    padding: 10px;
+    text-align: center;
+    margin-top: 5%;
+    background-color: #F2F4F5;
+    height: 500px;
+
+
+}
+
+.our {
+    margin-top: 7%;
+}
+
+.icon {
+    width: 300px;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.icon p {
+    font-size: 14px;
+    color: gray;
+}
+
+.for {
+    display: inline-block;
+    font-size: 12px;
+    text-align: justify;
+    width: 570px;
+    margin-top: 0px;
+    margin-left: 29px;
+}
+
+.do {
+    display: inline-block;
+
+
+
+}
+
+.all {
+    background-color: #F2F4F5;
+}
+
+#do {
+
+    margin-top: 10%;
+    background-color: #F2F4F5;
+    /* height: 800px; */
+}
+
+.iteam {
+    width: 210px;
+    display: inline-block;
+    font-size: 13px;
+    text-align: justify;
+    /* justify-content: space-around; */
+    /* margin-left: 0; */
+}
+
+.product {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.pro :hover.buy {
+
+    opacity: 1;
+}
+
+.pro {
+    display: inline-block;
+    margin-left: 2%;
+    position: relative;
+}
+
+/* .pro:hover {
+    cursor: pointer;
+
+} */
+
+.buy {
+    position: absolute;
+    top: 65%;
+    left: 28%;
+
+    opacity: 0;
+    transition: 1s;
+    /* color: transparent; */
+
+
+}
+
+.pro i {
+    /* color: ;
+    color: black; */
+    border-radius: 90%;
+    background-color: white;
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.buy::after {
+    content: "good";
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+
+.buy:hover::after {
+    opacity: 1;
+}
+
+.pro i:hover {
+    background-color: #77B122;
+    cursor: pointer;
+    color: white;
+
+}
+.pro{
+    transition: 0.6s;
+}
+.pro:hover{
+    transform: translateY(-8px);
+}
+
+
+.pro p {
+    font-size: 14px;
+}
+
+.pro p:hover {
+    color: #77B122;
+    cursor: pointer;
+}
+
+.email {
+    background-image: url(https://cdn.phototourl.com/member/2026-09-30-3529ec10-b6ca-404d-a51f-5cd9ecfb6a00.png);
+    width: 98%;
+    height: 500px;
+    background-blend-mode: multiply;
+    background-color: gray;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.sub {
+    width: 75%;
+    margin-top: 7%;
+    margin-left: 12%;
+    /* text-align: justify; */
+}
+
+input {
+    padding: 1px;
+    border-radius: 3px;
+    border-style: none;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #77B122;
+    font-size: 10px;
+
+
+
+}
+
+input::placeholder {
+    padding: 20px;
+}
+
+.input {
+    width: 500px;
+    display: flex;
+    /* border: 1px solid #fdfdfc; */
+    border-radius: 2%;
+    margin-top: 3%;
+    margin-left: 25%;
+
+}
+
+.green {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.pet {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+
+}
+
+.gree {
+    position: relative;
+}
+
+.pet img {
+    width: 350px;
+    height: 300px;
+}
+.pet img{
+    transition-duration:0.6s ;
+}
+.pet img:hover{
+    transform: translateY(-8px);
+}
+
+.peti {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 120%;
+    display: flex;
+    gap: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+
+}
+
+.peti img {
+    margin-left: 90px;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 99%;
+    background-color: white;
+    transition: 0.5s;
+   
+
+}
+.peti img:hover{
+     box-shadow: 2px 5px 10px rgb(85, 84, 84);
+     cursor: pointer;
+}
+
+.pic p {
+    font-size: 14px;
+    color: gray;
+    /* margin-top:0px; */
+}
+
+.pic h3 {
+    font-size: 20px;
+
+}
+
+.pic h3:hover {
+    color: #77B122;
+    cursor: pointer;
+}
+
+.pic {
+    width: 300px;
+}
+
+.thank {
+    margin-top: 25%;
+    background-image: url(https://cdn.phototourl.com/member/2026-09-30-d1fc9b12-5f4c-4a1f-9e28-3da0e2349e12.png);
+    width: 100%;
+    height: 350px;
+    background-blend-mode: multiply;
+    background-color: gray;
+    background-repeat: no-repeat;
+}
+
+.you {
+    padding: 95px 70px;
+    width: 80%;
+    margin-left: 8%;
+    color: white;
+    margin-top: 20px;
+}
+
+.lara {
+    display: flex;
+   
+
+}
+.lara img{
+     transition-duration:0.7s ;
+}
+.lara img:hover{
+    transform: scale(1.1);
+}
+.lara p:hover{
+ color:#77B122 ;
+ cursor: pointer;
+}
+
+.cli {
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.address {
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+form {
+    width: 500px;
+    /* text-align: center;   */
+
+}
+
+form input {
+    gap: 70px;
+    border-color: gainsboro;
+    font-size: 12px;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iframe {
+    margin-top: 10%;
+}
+
+.select {
+    margin-top: 3%;
+    background-color: #F2F4F5;
+}
+
+.why {
+    position: relative;
+    display: flex;
+    /* justify-content: space-evenly; */
+
+}
+
+.imt {
+    position: absolute;
+    top: 65%;
+    left: 13%;
+    width: 400px;
+}
+
+.cat {
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 0;
+}
+
+.cow {
+    width: 500px;
+    height: fit-content;
+
+    padding: 10px;
+    margin-bottom: 31px;
+    font-size: 15px;
+    box-shadow: 2px 9px 10px gray;
+    background-color: white;
+}
+
+.cow p {
+    font-size: 12px;
+    color: rgb(160, 155, 155);
+}
+
+.cow h3 {
+    font-size: 17px;
+}
+
+.Quality {
+    margin-top: 5%;
+}
+
+.h {
+    text-align: center;
+}
+
+.is {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7%;
+}
+
+.icons p {
+    font-size: 12px;
+    color: #6b6a69;
+   text-transform: uppercase;
+}
+
+/* foot */
+.foot{
+    position: relative;
+    margin-top: 5%;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+}
+
+.grass{
+    background-image: url(https://cdn.phototourl.com/member/2026-09-30-87b0d6c0-fbb5-4263-829f-ff562a75ea7f.png);
+    background-blend-mode: multiply;
+    background-color: #7e7c7b;
+    width: 100%;
+    height: 500px;
+    /* position: relative; */
+}
+.class{
+
+    top: 18%;
+    left: 7%;
+    gap: 50px;
+
+    display: flex;
+    font-size: 14px;
+    /* justify-content: space-evenly; */
+    color: white;
+    position: absolute;  
+
+}
+.frime{
+    width: 350px;
+}
+.small p{
+    font-size: 12px;
+    width: 200px;
+    color:  #bebcbb;
+    transition: 1s;
+
+}
+.small p:hover{
+    color: white;
+}
+.link p,.links p{
+    color:  #bebcbb;
+    transition: 0.4s;
+}
+.link p:hover,.links p:hover{
+    color: white;
+    cursor: pointer;
+}
+.small{
+    display: flex;
+
+}
+.ll{
+    margin-left: 2%;
+    padding: 13px;
+}
+.stay{
+    display: flex;
+    margin-top: 10%;
+    
+    
+
+}
+.tay i{
+    width: 20px;
+    height: 20px;
+}
+.stay p{
+ margin-left: 3%;
+ color: #bebcbb;
+}
+.stay p:hover{
+    color: white  ;
+}
+.stay i{
+    transition: 0.6s;
+}
+.stay i:hover{
+    background-color: #77B122;
+     cursor: pointer;
+}
+.black{
+   position: absolute;
+   top: 90%;
+   color: rgb(99, 97, 97);
+   font-size: 12px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.ft:hover ,.ftt:hover{
+    color: #77B122;
+    cursor: pointer;
+
+}
+.ft{
+    transition: 0.7s;
+}
+.ftt{
+    color: white;
+    transition: 0.7s;
+}
+
